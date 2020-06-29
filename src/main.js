@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 
+// ZM插件
+import vueMsg from 'vue-zplugin'
+// 注册插件
+Vue.use(vueMsg)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
